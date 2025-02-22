@@ -34,10 +34,13 @@ body {
 }
 .product-info p {
   margin-top: -10px;
+  width: 400px;
 }
 .ratings {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  width: auto;
   gap: 20px;
   margin-bottom: 40px;
 }
@@ -62,6 +65,11 @@ body {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+}
+.testimonials p {
+  color: hsl(0, 0%, 100%);
+  text-align: start;
+  width: 250px;
 }
 .testimonial-card {
   background: #4c2263;
